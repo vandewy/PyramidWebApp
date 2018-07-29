@@ -4,6 +4,7 @@ import os
 __full_path = os.path.dirname(os.path.abspath(__file__))
 
 def build_cache_id(relative_file_url: str):
+    print('hereerererere')
     if not relative_file_url:
             return "ERROR_NO_FILE"
 
