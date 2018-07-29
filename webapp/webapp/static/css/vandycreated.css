@@ -1,0 +1,61 @@
+.tableofcontents{
+    font-family: "Century Gothic";
+    font-size: large;
+    top: 0;
+    text-align: center;
+}
+
+.list-group-item{
+    background-color: lightgray;
+    <!--background-color: #adb5bd;-->
+}
+
+#banner{
+    top: 0;
+    background-color: black;
+    margin:7px auto;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    width: 100%;
+    height: 100px;
+}
+
+#radar_image{
+    background-image: url('../img/radar1.jpg');
+    width: inherit;
+    height: 250px;
+}
+
+#personal_photo{
+    #max-height: 300px;
+}
+
+#top_description{
+    color: #ffffff;
+    text-align: center;
+    font-family: "Century Gothic";
+}
+
+#projectheader{
+    text-align: center;
+}
+
+#projecttable{
+    width: 100%;
+}
+
+#column2{
+    text-align: right;
+    padding-right: 5em;
+}
+
+#column1{
+    padding-left: 5em;
+}
+
+#message{
+    height: 100px;
+    width: 400px;
+}

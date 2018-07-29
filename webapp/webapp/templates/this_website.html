@@ -1,0 +1,18 @@
+{% extends "home/header.html" %}
+
+{% block content %}
+
+    <h2>Building of this website</h2>
+    <br>
+
+    <div>
+        <p>
+            This website was developed with the Django framework, utilizing Bootstrap4 as the
+            css interface and sqlite as the database.  The contact page uses sqlite to save
+            the message to a database before using a Python library to send an email with
+            the message to my inbox.  I chose to save messages to a sqlite database as a
+            backup in case there is an issue with the Python library or connection issues;
+            the message will still be viewable.
+        </p>
+    </div>
+{% endblock %}

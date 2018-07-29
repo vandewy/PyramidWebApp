@@ -1,0 +1,23 @@
+{% extends "home/header.html" %}
+
+{% block content %}
+
+    <h2>Send e-mail to ryan@vandycraft.com</h2>
+
+    <form name="mail" method="GET" action="../send_mail/">
+    Name:<br>
+    <input type="text" name="name"><br>
+    E-mail:<br>
+    <input type="text" name="user_email"><br>
+    Message:<br>
+
+        <textarea id="message" type="text" name="message">
+        </textarea><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+    </form>
+
+{% endblock %}
+
