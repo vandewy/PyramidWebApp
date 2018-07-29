@@ -1,0 +1,9 @@
+<div metal:use-macro="load: ../header.pt">
+    <div metal:fill-slot="content">
+        <div class="content">
+            <h2>Message Sent</h2>
+
+
+        </div>
+    </div>
+</div>

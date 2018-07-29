@@ -1,10 +1,11 @@
 import hashlib
 import os
+import pyramid_handlers
 
 __full_path = os.path.dirname(os.path.abspath(__file__))
 
 def build_cache_id(relative_file_url: str):
-    print('hereerererere')
+
     if not relative_file_url:
             return "ERROR_NO_FILE"
 
@@ -24,4 +25,13 @@ def __get_file_hash(filename):
         md5.update(data)
 
     return md5.hexdigest()
+
+
+#decorator to prevent methods getting exposed exposed online
+class Suppress(pyramid_handlers.action):
+
+    def __init__(self, _, **kw):
+        kw['request_method'] = 'NOT_A_HTTP_VERB'
+        super().__init__(**kw)
+
 

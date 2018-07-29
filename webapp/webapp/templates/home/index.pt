@@ -1,23 +1,27 @@
 <div metal:use-macro="load: ../header.pt">
+    <div metal:fill-slot="content">
 
-    <h1>About:</h1>
-    <div>
-    <p>I have been an Air Traffic controller for the past 10 years; rated as a RAPCON controller
-        as well as a Certified Tower Controller for the United States Air Force in Texas and Alaska.
-        I have spent the last 4 years as an Air Traffic Control instructor, teaching the
-        fundamentals of FAA and USAF rules and regulations via lecture as well as in a simulated
-        environment.  As an instructor, I have also taught the Standard Terminal Automations
-        Replacement System (STARS) course.  This course includes basic system admin responsibilies
-        in a Unix (Solaris 10) environment and the use of security software such as NISPlus and
-        the Basic Security Module for auditing.
-    </p>
-    <br>
+        <div class="content">
+            <h1>About:</h1>
+            <div>
+            <p>I have been an Air Traffic controller for the past 10 years; rated as a RAPCON controller
+                as well as a Certified Tower Controller for the United States Air Force in Texas and Alaska.
+                I have spent the last 4 years as an Air Traffic Control instructor, teaching the
+                fundamentals of FAA and USAF rules and regulations via lecture as well as in a simulated
+                environment.  As an instructor, I have also taught the Standard Terminal Automations
+                Replacement System (STARS) course.  This course includes basic system admin responsibilies
+                in a Unix (Solaris 10) environment and the use of security software such as NISPlus and
+                the Basic Security Module for auditing.
+            </p>
+            <br>
 
-    <p>
-        I have listed and described several projects here, including: radar approach control simulator,
-        tower controller simulator, web scrapping, as well as this website built with the django framework.
-    </p>
+            <p>
+                I have listed and described several projects here, including: radar approach control simulator,
+                tower controller simulator, web scrapping, as well as this website built with the Pyramid framework.
+            </p>
 
+            </div>
+        </div>
     </div>
-
 </div>
+
