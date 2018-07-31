@@ -2,6 +2,8 @@ from pyramid.config import Configurator
 import webapp.controllers.home_controller as home_ctrl
 import webapp.controllers.contact_controller as contact_ctrl
 import webapp.controllers.mail_sent_controller as sent_ctrl
+import webapp.controllers.projects_controller as proj_ctrl
+
 
 def main(global_config, **settings):
     """ This function returns a Pyramid WSGI application.
@@ -24,6 +26,7 @@ def init_routing(config):
     add_controller_routes(config, home_ctrl.HomeController, 'home')
     add_controller_routes(config, contact_ctrl.ContactController, 'contact')
     add_controller_routes(config, sent_ctrl.MailSentController, 'mail_sent')
+    add_controller_routes(config, proj_ctrl.ProjectsController, 'projects')
 
 
 def add_controller_routes(config, ctrl, prefix):

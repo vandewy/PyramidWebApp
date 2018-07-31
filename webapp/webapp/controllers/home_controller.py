@@ -10,6 +10,3 @@ class HomeController(BaseController):
     def index(self):
         return{'value' : 'index.pt'}
 
-    @pyramid_handlers.action(renderer='templates/home/projects.pt')
-    def projects(self):
-        pass
