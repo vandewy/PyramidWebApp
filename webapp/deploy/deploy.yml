@@ -1,0 +1,9 @@
+###
+# Deploy the entire app
+# #
+#
+- name: apply standard configuration to server
+  hosts: common
+  user: deployer
+  rolse:
+          - common
