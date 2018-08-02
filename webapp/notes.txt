@@ -1,0 +1,5 @@
+Notes for reference when errors occur:
+
+1. If creating SSH key after droplet has been created must run
+cat [path]/do_deploy.pub >> [root home dir]/.ssh/authrized_keys,
+else access will be denied.
