@@ -5,8 +5,8 @@
 	<title>VandyCraft</title>
 	<meta charset="utf-8" />
 
-	<link rel="stylesheet" href="/static/css/bootstrap.css?cacheId=${view.build_cache_id('/static/css/bootstrap.css')}"/>
-    <link rel="stylesheet" href="/static/css/vandycreated.css?cacheId=${view.build_cache_id('/static/css/vandycreated.css')}"/>
+	<link rel="stylesheet" href="../static/css/bootstrap.css?cacheId=${view.build_cache_id('/static/css/bootstrap.css')}"/>
+    <link rel="stylesheet" href="../static/css/vandycreated.css?cacheId=${view.build_cache_id('/static/css/vandycreated.css')}"/>
 	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
 
 	<style type="text/css">
@@ -15,8 +15,8 @@
 		  height:100%
 		}
 	</style>
-    <script src="/static/node_modules/html5shiv/src/html5shiv.js?cacheId=${view.build_cache_id('/static/node_modules/html5shiv/src/html5shiv.js')}"></script>
-    <script src="/static/node_modules/respond/respond.js?cacheId=${view.build_cache_id('/static/node_modules/respond/respond.js')}"></script>
+    <script src="../static/node_modules/html5shiv/src/html5shiv.js?cacheId=${view.build_cache_id('/static/node_modules/html5shiv/src/html5shiv.js')}"></script>
+    <script src="../static/node_modules/respond/respond.js?cacheId=${view.build_cache_id('/static/node_modules/respond/respond.js')}"></script>
 </head>
 
 <body class="body" style="background-color:#f6f6f6">
@@ -46,7 +46,7 @@
                 <!--</li>-->
 			  <!--</ul>-->
 			</div> <!--well bs-sidebar affix-->
-              <img src="/static/img/personal_photo.jpg" class="img-fluid img-thumbnail" id="personal_photo">
+              <img src="../static/img/personal_photo.jpg" class="img-fluid img-thumbnail" id="personal_photo">
 		  </div> <!--col-sm-2-->
 		  <div class="col-sm-10">
 
@@ -58,11 +58,11 @@
 	</div>
 	<footer>
 		<div class="container-fluid" style='margin-left:15px'>
-			<p><a href="/contact/">Contact</a> | <a href="#" target="blank">LinkedIn</a> | <a href="https:/www.github.com/vandewy" target="blank">Github</a></p>
+			<p><a href="/contact/">Contact</a>  | <a href="https:/www.github.com/vandewy" target="blank">Github</a></p>
 		</div>
 	</footer>
-    <script src="/static/node_modules/jquery/src/jquery.js?cacheId=${view.build_cache_id('/static/node_modules/jquery/src/jquery.js')}"></script>
-    <script src="/static/js/bootstrap.js?cacheId=${view.build_cache_id('/static/js/bootstrap.js')}"></script>
+    <script src="../static/node_modules/jquery/src/jquery.js?cacheId=${view.build_cache_id('/static/node_modules/jquery/src/jquery.js')}"></script>
+    <script src="../static/js/bootstrap.js?cacheId=${view.build_cache_id('/static/js/bootstrap.js')}"></script>
 </body>
 
 </html>

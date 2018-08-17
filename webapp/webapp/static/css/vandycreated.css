@@ -10,6 +10,7 @@
     <!--background-color: #adb5bd;-->
 }
 
+
 #banner{
     top: 0;
     background-color: black;
@@ -23,7 +24,6 @@
 }
 
 #radar_image{
-    background-image: url('../img/radar1.jpg');
     width: inherit;
     height: 250px;
 }

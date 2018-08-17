@@ -1,3 +1,4 @@
+<html>
 <div metal:use-macro="load: ../header.pt">
     <div metal:fill-slot="content">
         <div class="content">
@@ -21,3 +22,4 @@
     </div>
 
 </div>
+</html>

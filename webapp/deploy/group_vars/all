@@ -1,4 +1,1 @@
-deploy_group: deployers
-deploy_user: deployer
-ssh_dir: "/home/wynkel/"
-ssh_key_name: "do_deploy"
+

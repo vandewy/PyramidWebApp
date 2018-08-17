@@ -10,7 +10,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Radar Simulator</h5>
                   <p class="card-text">Radar simulator built with Unity Engine</p>
-                  <p class="card-text"><a href='/projects/radar_sim/'>Radar Sim</a></p>
+                  <p class="card-link"><a href='/projects/radar_sim/'>Radar Sim</a></p>
                 </div>
               </div>
               <div class="card">
@@ -18,7 +18,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Tower Simulator</h5>
                   <p class="card-text">3D tower simulator built with Unity Engine</p>
-                  <p class="card-text"><a href='/projects/tower_sim/'>Tower Sim</a></p>
+                  <p class="card-link"><a href='../tower_sim/'>Tower Sim</a></p>
                 </div>
               </div>
               <div class="card">
@@ -26,7 +26,7 @@
                 <div class="card-body">
                   <h5 class="card-title">This Website</h5>
                   <p class="card-text">Information on the frameworks used to build this website</p>
-                  <p class="card-text"><a href='/projects/this_website/'>Making of this Website</a></p>
+                  <p class="card-link"><a href='/projects/this_website/'>Making of this Website</a></p>
                 </div>
               </div>
               </div>
