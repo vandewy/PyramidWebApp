@@ -15,9 +15,6 @@
                     runway.  Other aircraft will arrive via the downwind for a left base to the runway.  After
                     aircraft land they will exit via the high speed and be deleted from the scenario.
                 </p>
-                <span tal:content="get_video()">
-                    Should be replaced.
-                </span>
             </div>
         </div tal:condition="video">
         <video height="240" width="320" controls>

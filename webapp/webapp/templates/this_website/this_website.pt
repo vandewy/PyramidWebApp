@@ -1,0 +1,24 @@
+<div metal:use-macro="load: ../header.pt">
+    <div metal:fill-slot="content">
+        <div class="content">
+            <h2 id="project_header">Building of this website</h2>
+            <br>
+            <div>
+                <p>
+                    <h4>Tools used for full-stack development:</h4><br>
+
+                    <ul id="dev_tools">
+                        <li>Python and  <a href="https://trypyramid.com/" target="_blank">Pyramid</a> for the web framework</li><br>
+                        <li><a href="https://www.sqlite.org/index.html" target="_blank">Sqlite</a> as the backend database</li><br>
+                        <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap4</a> for css front-end styling</li><br>
+                        <li><a href="https://www.digitalocean.com/" target="_blank">Digital Ocean</a> utilized as the cloud based infrastructure</li><br>
+                        <li><a href="https://www.nginx.com/" target="_blank">Nginx</a> and
+                        <a href="https://uwsgi-docs.readthedocs.io/en/latest/">uWSGI</a> as the web server and proxy web server</li><br>
+                        <li><a href="https://letsencrypt.org/">Let's Encrypt</a> for Website SSL</li><br>
+                    </ul>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

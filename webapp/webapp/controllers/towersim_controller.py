@@ -3,7 +3,6 @@ import json
 import webapp.utils as utils
 from webapp.controllers.base_controller import BaseController
 
-
 class TowersimController(BaseController):
 
     @pyramid_handlers.action(renderer='templates/tower_sim/tower_sim.pt')

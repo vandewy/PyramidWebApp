@@ -10,6 +10,17 @@
     <!--background-color: #adb5bd;-->
 }
 
+#project_header{
+    text-align: center;
+}
+
+#about_text, #projects_text, #contact_text{
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
 
 #banner{
     top: 0;
@@ -33,6 +44,10 @@
 }
 
 #top_description{
+
+    font-size: 3vw;
+    overflow: hidden;
+    white-space: pre-line;
     color: #ffffff;
     text-align: center;
     font-family: "Century Gothic";

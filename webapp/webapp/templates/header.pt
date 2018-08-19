@@ -21,13 +21,11 @@
 
 <body class="body" style="background-color:#f6f6f6">
 	<div class="container-fluid" style="min-height:95%; ">
-		<div class="banner_row" >
+		<div class="banner_row">
 			  <div id="banner">
-                  <!--<img src="{% static 'home/img/radar_background.png' %}" class="responsive-img" style='max-height:100px;' alt="radar">
-                  -->
 				  <br>
 				  <center>
-				  <h2 class="d-block text-truncate" id="top_description">Software Development  |  Air Traffic Control  |  Boxer Doggo</h2>
+				  <h2 class="" id="top_description">Software Development  |  Air Traffic Control  |  Boxer Doggo</h2>
 				  </center>
 			  </div>
 		</div><hr>
@@ -40,9 +38,9 @@
 			<div class="well bs-sidebar" id="sidebar" style="background-color:#fff">
 			  <!--<ul class="nav nav-pills nav-stacked nav-fill">-->
 				<!--<li>-->
-                    <div class="tableofcontents"><a href='/' class="list-group-item">About</a></div>
-                    <div class="tableofcontents"><a href='/projects/' class="list-group-item">Projects</a></div>
-                    <div class="tableofcontents"><a href='/contact/' class="list-group-item">Contact</a></div>
+                    <div class="tableofcontents"><a href='/' class="list-group-item" id="about_text">About</a></div>
+                    <div class="tableofcontents"><a href='/projects/' class="list-group-item" id="projects_text">Projects</a></div>
+                    <div class="tableofcontents"><a href='/contact/' class="list-group-item" id="contact_text">Contact</a></div>
                 <!--</li>-->
 			  <!--</ul>-->
 			</div> <!--well bs-sidebar affix-->
@@ -58,7 +56,7 @@
 	</div>
 	<footer>
 		<div class="container-fluid" style='margin-left:15px'>
-			<p><a href="/contact/">Contact</a>  | <a href="https:/www.github.com/vandewy" target="blank">Github</a></p>
+			<p><a href="/contact/">Contact</a>  | <a href="https://www.github.com/vandewy" target="_blank">Github</a></p>
 		</div>
 	</footer>
     <script src="../static/node_modules/jquery/src/jquery.js?cacheId=${view.build_cache_id('/static/node_modules/jquery/src/jquery.js')}"></script>
