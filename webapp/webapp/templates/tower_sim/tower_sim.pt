@@ -17,9 +17,28 @@
                 </p>
             </div>
         </div tal:condition="video">
-        <video height="240" width="320" controls>
-            <source tal:attributes="src video" type="video/mp4">
-        </video>
+        <div class="container-fluid">
+            <div id="video_div">
+                <table width="100#">
+                <tr>
+                    <th id="tower_col1_text"><strong>Base Unity Scene</strong></th>
+                    <th id="tower_col2_text"><strong>Scene with added assets</strong></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td class="col-sm-1" id="tower_vid_column">
+                    <video height="240" width="320" controls>
+                        <source tal:attributes="src video" type="video/mp4">
+                    </video>
+                    </td>
+                    <td class="col-sm-11" id="tower_img_column">
+                        <img id="tower_img" src="../../static/img/airfield1_1.png" height="210" width="400" >
+                    </td>
+                </tr>
+                </table>
+            </div>
+        </div>
 
     </div>
 </div>

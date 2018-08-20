@@ -6,15 +6,15 @@
 
               <div class="card-deck">
               <div class="card">
-                <img class="card-img-top" src="" alt="" id="radar_image">
+                <img class="card-img-top" height=100 width=200 src="../../static/img/construction.png" alt="Card image cap" id="radar_image">
                 <div class="card-body">
                   <h5 class="card-title">Radar Simulator</h5>
                   <p class="card-text">Radar simulator built with Unity Engine</p>
-                  <p class="card-link"><a href='/projects/radar_sim/'>Radar Sim</a></p>
-                </div>
+                  <p class="card-link"><a href='../radar_sim/'>Radar Sim</a></p>
+              </div>
               </div>
               <div class="card">
-                <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                <img class="card-img-top" height=200 width=451 src="../../static/img/airfield1_1.png" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Tower Simulator</h5>
                   <p class="card-text">3D tower simulator built with Unity Engine</p>
@@ -22,7 +22,7 @@
                 </div>
               </div>
               <div class="card">
-                <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                <img class="card-img-top" height=200 width=451 src="../../static/img/webdev.png" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">This Website</h5>
                   <p class="card-text">Information on the frameworks used to build this website</p>

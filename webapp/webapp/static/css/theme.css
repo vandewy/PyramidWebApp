@@ -2,7 +2,7 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  color: #ffffff;
+  color: #111;
   background: #bc2131;
 }
 h1,
@@ -38,11 +38,11 @@ p {
 }
 .starter-template .content h1 .smaller {
   font-size: 40px;
-  color: #f2b7bd;
+  color: blue;
 }
 .starter-template .content .lead {
   font-size: 25px;
-  color: #f2b7bd;
+  color: blue;
 }
 .starter-template .content .lead .font-normal {
   color: #ffffff;
@@ -69,11 +69,11 @@ p {
   margin-right: 0;
 }
 .starter-template .links ul li.current-version {
-  color: #f2b7bd;
+  color: blue;
   font-weight: 400;
 }
 .starter-template .links ul li a, a {
-  color: #f2b7bd;
+  color: blue;
   text-decoration: underline;
 }
 .starter-template .links ul li a:hover, a:hover {
@@ -81,7 +81,7 @@ p {
   text-decoration: underline;
 }
 .starter-template .links ul li .icon-muted {
-  color: #eb8b95;
+  color: blue;
   margin-right: 5px;
 }
 .starter-template .links ul li:hover .icon-muted {
@@ -90,11 +90,12 @@ p {
 .starter-template .copyright {
   margin-top: 10px;
   font-size: 0.9em;
-  color: #f2b7bd;
+  color: blue;
   text-transform: lowercase;
   float: right;
   right: 0;
 }
+
 @media (max-width: 1199px) {
   .starter-template .content h1 {
     font-size: 45px;
@@ -105,6 +106,7 @@ p {
   .starter-template .content .lead {
     font-size: 20px;
   }
+
 }
 @media (max-width: 991px) {
   .starter-template {
@@ -151,4 +153,19 @@ p {
   .starter-template .copyright {
     margin-top: 20px;
   }
+
+  #personal_photo_div{
+    display: none;
+  }
+
 }
+
+@media(max-width: 700px){
+  #personal_photo_div{
+    display: none;
+  }
+  #personal_photo_div_bottom{
+    display: inline;
+  }
+}
+

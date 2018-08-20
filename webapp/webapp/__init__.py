@@ -6,6 +6,7 @@ import webapp.controllers.projects_controller as proj_ctrl
 import webapp.controllers.towersim_controller as towersim_ctrl
 import webapp.controllers.thiswebsite_controller as website_ctrl
 import webapp.controllers.radarsim_controller as radarsim_ctrl
+import webapp.controllers.robotxt_controller as robot_ctrl
 
 
 def main(global_config, **settings):
@@ -33,6 +34,7 @@ def init_routing(config):
     add_controller_routes(config, towersim_ctrl.TowersimController, 'tower_sim')
     add_controller_routes(config, website_ctrl.ThiswebsiteController, 'this_website')
     add_controller_routes(config, radarsim_ctrl.RadarsimController, 'radar_sim')
+    add_controller_routes(config, robot_ctrl.RobotxtController, 'robot.txt')
 
 
 def add_controller_routes(config, ctrl, prefix):
